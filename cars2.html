@@ -8,6 +8,10 @@
         <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
         <script>
 
+            var getRandomSpeed = function (maxSpeed) {
+                return Math.floor(Math.random() * maxSpeed);
+            };
+
             var Car = function (x, y) {
                 this.x = x;
                 this.y = y;
